@@ -1,0 +1,10 @@
+/* SI5 Global - página do produto. @license AFL-3.0 */
+.si5g { padding: 8px 0; }
+.si5g-titulo { margin-top: 0; }
+.si5g-revisao { margin-top: 16px; }
+.si5g-tabela th:first-child { width: 90px; }
+.si5g-tabela td { vertical-align: middle !important; }
+.si5g-foto { max-width: 140px; max-height: 140px; border-radius: 6px; }
+.si5g-ref { color: #6c868e; font-size: 12px; }
+.si5g-msg:empty { display: none; }
+.si5g-msg { margin-top: 12px; }
