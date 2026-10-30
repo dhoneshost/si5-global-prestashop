@@ -22,7 +22,7 @@ class Si5Global extends Module
     {
         $this->name = 'si5global';
         $this->tab = 'administration';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'SI5';
         $this->need_instance = 0;
         $this->ps_versions_compliancy = array('min' => '1.7.7.0', 'max' => _PS_VERSION_);
@@ -87,7 +87,7 @@ class Si5Global extends Module
 
         $form = array('form' => array(
             'legend' => array('title' => 'SI5 Global', 'icon' => 'icon-barcode'),
-            'description' => 'Crie uma conta e um token em global.si5.com.br (Minha conta). O plano gratuito permite 100 consultas por dia. '
+            'description' => 'Crie uma conta e um token em global.si5.com.br (Minha conta). O plano gratuito tem uma cota diária de consultas (limites de cada plano em global.si5.com.br). '
                 . 'A consulta envia ao SI5 Global apenas o código de barras do produto e este token.',
             'input' => array(
                 array(

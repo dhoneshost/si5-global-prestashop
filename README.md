@@ -32,7 +32,7 @@ O módulo consulta `https://global.si5.com.br/api/produtos/{código}` enviando *
 
 1. Baixe o `si5global.zip` em [Releases](../../releases).
 2. Em *Módulos › Gerenciador de módulos › Enviar um módulo*, envie o `.zip`.
-3. Crie uma conta e um token em global.si5.com.br (*Minha conta*). O plano gratuito permite 100 consultas por dia.
+3. Crie uma conta e um token em global.si5.com.br (*Minha conta*). O plano gratuito tem uma cota diária de consultas (veja os limites de cada plano em global.si5.com.br).
 4. Em *Configurar* do módulo, cole o token e salve.
 
 Requisitos: PrestaShop 1.7.7 ou mais novo, PHP 7.2+ com cURL e GD.
